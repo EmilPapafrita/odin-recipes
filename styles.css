@@ -1,0 +1,25 @@
+.lasagna.header {
+    text-align: center;
+    max-width: 100%;
+}
+
+.lasagna {
+    color: brown;
+    background-color: rgb(252, 240, 173);
+    max-width: fit-content;
+    outline: auto;
+    outline-color: red;
+    outline-width: thick;
+}
+
+.smoothie.header {
+    text-align: center;
+    max-width: 100%;
+}
+
+.smoothie {
+    color: black;
+    background-color: yellow;
+    max-width: fit-content;
+    outline: auto;
+}
