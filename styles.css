@@ -1,25 +1,147 @@
-.lasagna.header {
+/* Styling for main Page */
+.main .header {
     text-align: center;
-    max-width: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.main .image img {
+    background-color: white;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+.main .image {
+    text-align: center;
+}
+.main p {
+    text-align: center;
+}
+.main p button {
+    margin: 0;
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+.main p button:hover {
+    background-color: white;
+    color: #3882F6;
 }
 
+/* styling for lasagna*/
 .lasagna {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: darkred;
+}
+.lasagna .title{
     color: brown;
     background-color: rgb(252, 240, 173);
     max-width: fit-content;
     outline: auto;
-    outline-color: red;
-    outline-width: thick;
+    outline-color: rgb(163, 85, 85);
+    border-radius: 8px;
+    padding: 4px;
 }
-
-.smoothie.header {
+.lasagna .header {
     text-align: center;
     max-width: 100%;
+    padding: 1px;
+}
+.lasagna .image {
+    text-align: center;
+}
+.lasagna .image img {
+    border: 3px solid rgb(163, 85, 85);
+    border-radius: 20px;
+    padding: 2px;
+}
+.lasagna button {
+    margin: 0;
+    padding: 4px;
+    color: rgb(252, 240, 173);
+    border: 2px solid lightsalmon;
+    border-radius: 10px;
+    background-color: lightsalmon;
+    cursor: pointer;
+    font-weight: bold;
+}
+.lasagna button:hover {
+    border: 2px solid rgb(252, 240, 173);
+    background-color: rgb(252, 240, 173);
+    color: brown;
 }
 
+/* styling for Cheesecake */
+.cheesecake {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: red;
+}
+.cheesecake .title{
+    color: red;
+    background-color: #FFFDD0;
+    max-width: fit-content;
+    outline: auto;
+    outline-color: red;
+    border-radius: 8px;
+    padding: 4px;
+}
+.cheesecake .header {
+    text-align: center;
+    max-width: 100%;
+    padding: 1px;
+}
+.cheesecake .image {
+    text-align: center;
+}
+.cheesecake .image img {
+    border: 3px solid red;
+    border-radius: 20px;
+    padding: 2px;
+}
+.cheesecake button {
+    margin: 0;
+    padding: 4px;
+    color: whitesmoke;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+.cheesecake button:hover {
+    border: 2px solid red;
+    background-color: whitesmoke;
+    color: red;
+}
+
+/* styling for smoothie */
 .smoothie {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.smoothie .title{
     color: black;
     background-color: yellow;
     max-width: fit-content;
     outline: auto;
+    border-radius: 8px;
+    padding: 4px;
+}
+.smoothie .header {
+    text-align: center;
+    max-width: 100%;
+    padding: 1px;
+}
+.smoothie .image {
+    text-align: center;
+}
+.smoothie .image img {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 2px;
 }
